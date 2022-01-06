@@ -1,9 +1,11 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import { App } from "./Components/App";
+import "../src/index.css";
 
-const element = React.createElement("div", {
-  a: 5,
-  b: 10,
-  children: "Hello world!",
-});
-
-console.log(element);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
