@@ -33,7 +33,27 @@ export const Location = styled.p`
 export const StatsList = styled.ul`
     background-color: #E7ECF1;
     display: flex;
-    /* justify-content: space-evenly; */
-    /* align-items: ; */
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: solid #909ca84f 1px;
 `;
 
+export const StatsListItem = styled.li`
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    :nth-of-type(2n) {
+        border-left: solid #909ca84f 1px;
+        border-right: solid #909ca84f 1px;
+    }
+`;
+
+export const StatsListTitle = styled.span`
+    display: block;
+    color: #909CA8;
+    margin-bottom: 5px;
+`;
+
+export const StatsListStat = styled.span`
+    font-weight: 700;
+`;
