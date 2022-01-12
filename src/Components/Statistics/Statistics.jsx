@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import {Title, StatsLabel, StatsPercentage, StatsList, StatsListItem} from './Statistics.styled'
+import { Title, StatsLabel, StatsPercentage, StatsList, StatsListItem } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
     return (
@@ -15,7 +15,7 @@ export const Statistics = ({ title, stats }) => {
             </StatsList>
         </section>
     );
-}
+};
 
 Statistics.propTypes = {
     title: PropTypes.string,
