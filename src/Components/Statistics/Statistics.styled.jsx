@@ -14,6 +14,7 @@ export const StatsList = styled.ul`
     display: flex;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 `;
 
 export const StatsListItem = styled.li`
