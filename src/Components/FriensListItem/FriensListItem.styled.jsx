@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 
-export const FriendsListItem = styled.li`
+export const FriendsListElement = styled.li`
     display: flex;
     align-items: center;
     height: 70px;
